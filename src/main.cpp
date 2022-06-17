@@ -7,8 +7,8 @@
 #define GP2 2
 #define GP3 3 // RXD
 
-char *ssid = "Claro_2G97B71F";
-char *password = "E297B71F";
+char* ssid = "Claro_2G97B71F";
+char* password = "E297B71F";
 
 const char *mqttServer = "pet.eletrica.ufpr.br";
 const int mqttPort = 2283;
@@ -103,3 +103,4 @@ void loop()
   {
     BLE_serial.write(Serial.read());
   }
+}
